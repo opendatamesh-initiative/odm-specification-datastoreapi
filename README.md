@@ -15,7 +15,7 @@ The **DatastoreAPI Specification (DSAS)** is a community-driven open specificati
 This GitHub project is the starting point for DSAS. Here you will find the information you need about the DatastoreAPI Specification, simple examples of what it looks like, and some general information regarding the project.
 
 ## Status
-The current version of the DSAS  is [Data Product Descriptor Specification v1.0.0](./versions/1.0.0.md).
+The current version of the DSAS  is [DSAS-v1.0.0](./versions/1.0.0.md).
 A reader-friendly version of the specification can be found on our [project site](https://dpds.opendatamesh.org/specifications/dsas/1.0.0/).
 
 ### Previous versions
