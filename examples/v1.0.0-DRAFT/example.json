@@ -1,6 +1,6 @@
 {   
-    "$schema": "../schemas/v1.0.0-DRAFT/schema.json",
-    "datastoreapi": "1.0.0",
+    "$schema": "https://dpds.opendatamesh.org/specifications/dsas/1.0.0-DRAFT/schema.json",
+    "datastoreapi": "1.0.0-DRAFT",
     "info": {
         "title": "Foodmart Sales Datastore",
         "summary": "The sales datamart",
