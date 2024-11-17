@@ -1,6 +1,6 @@
 # Data Store API Specification
 
-#### Version 1.0.0-DRAFT
+#### Version 1.0.0
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://tools.ietf.org/html/bcp14) [RFC2119](https://tools.ietf.org/html/rfc2119) [RFC8174](https://tools.ietf.org/html/rfc8174) when, and only when, they appear in all capitals, as shown here.
 
 This document is licensed under [The Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
@@ -838,4 +838,5 @@ The extensions may or may not be supported by the available tooling, but those m
 
 Version   | Date       | Notes
 ---       | ---        | ---
-1.0.0     | 2023-Q1    | Release of the Data Store API Specification 1.0.0 
+1.0.0     | 2024-Q4    | Release of the Data Store API Specification 1.0.0
+1.0.0-DRAFT     | 2022-Q1    | Release of the Data Store API Specification 1.0.0-DRAFT 
