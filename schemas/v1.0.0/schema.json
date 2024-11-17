@@ -1,7 +1,7 @@
 {
-    "$id": "https://dsapi.opendatamesh.org/resources/schemas/1.0.0-DRAFT.json",
+    "$id": "https://dpds.opendatamesh.org/specifications/dsas/1.0.0/schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#dsapiObject",
+    "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#dsapiObject",
     "title": "dataStoreAPI",
     "description": "",
     "type": "object",
@@ -29,7 +29,7 @@
     ],
     "$defs": {
         "info": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#infoObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#infoObject",
             "title": "Info Object",
             "description": "",
             "type": "object",
@@ -74,7 +74,7 @@
             "unevaluatedProperties": false
         },
         "contact": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#contactObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#contactObject",
             "title": "Contact Object",
             "description": "",
             "type": "object",
@@ -95,7 +95,7 @@
             "unevaluatedProperties": false
         },
         "license": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#licenseObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#licenseObject",
             "title": "License Object",
             "description": "",
             "type": "object",
@@ -112,7 +112,7 @@
             "unevaluatedProperties": false
         },
         "databaseServices": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#databaseServicesObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#databaseServicesObject",
             "title": "Database Services Object",
             "description": "",
             "type": "object",
@@ -132,7 +132,7 @@
             ]
         },
         "databaseService": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#databaseServiceObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#databaseServiceObject",
             "title": "Database Service Object",
             "description": "",
             "type": "object",
@@ -170,7 +170,7 @@
             ]
         },
         "serverInfo": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#serverInfoObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#serverInfoObject",
             "title": "Server Info Object",
             "description": "",
             "type": "object",
@@ -204,7 +204,7 @@
             
         },
         "connectionProtocols": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#connectionProtocolsObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#connectionProtocolsObject",
             "title": "Connection Protocols Object",
             "description": "",
             "type": "object",
@@ -220,7 +220,7 @@
             
         },
         "jdbcConnection": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#jdbcConnectionObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#jdbcConnectionObject",
             "title": "JDBC Connection Object",
             "description": "",
             "type": "object",
@@ -258,7 +258,7 @@
             "unevaluatedProperties": false  
         },
         "odbcConnection": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#odbcConnectionObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#odbcConnectionObject",
             "title": "ODBC Connection Object",
             "description": "",
             "type": "object",
@@ -292,7 +292,7 @@
             "unevaluatedProperties": false  
         },
         "variables": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#variableObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#variableObject",
             "title": "Server Varibles Object",
             "description": "",
             "type": "object",
@@ -302,7 +302,7 @@
             "unevaluatedProperties": false
         },
         "variable": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#variablesObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#variablesObject",
             "title": "Server Variables Object",
             "description": "",
             "type": "object",
@@ -333,7 +333,7 @@
             "unevaluatedProperties": false              
         },
         "schema": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#schemaObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#schemaObject",
             "title": "Schema Object",
             "description": "",
             "type": "object",
@@ -372,7 +372,7 @@
             ]
         },
         "table": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#tableEntity",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#tableEntity",
             "title": "Table Entity",
             "description": "",
             "type": "object",
@@ -456,7 +456,7 @@
             "unevaluatedProperties": false   
         },
         "column": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#columnObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#columnObject",
             "title": "Column Object",
             "description": "",
             "type": "object",
@@ -513,7 +513,7 @@
             "unevaluatedProperties": false
         },
         "tableConstraint": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#tableConstraintObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#tableConstraintObject",
             "title": "Table Constraint Object",
             "description": "",
             "type": "object",
@@ -535,7 +535,7 @@
 
         },
         "tablePartition": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#tablePartitionObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#tablePartitionObject",
             "title": "Table Partition Object",
             "description": "",
             "type": "object",
@@ -562,9 +562,9 @@
 
         },
         "components": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#componentsObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#componentsObject",
             "title": "Components Object",
-            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#componentsObject\" target=\"_parent\">Components Object</a> holds a set of reusable objects for different aspects of the Data Store API.",
+            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#componentsObject\" target=\"_parent\">Components Object</a> holds a set of reusable objects for different aspects of the Data Store API.",
             "type": "object",
             "properties": {
                 "serverInfo": {
@@ -590,9 +590,9 @@
             "unevaluatedProperties": false
         },
         "externalResource": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#externalResourceObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#externalResourceObject",
             "title": "External Resource Object",
-            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#externalResourceObject\" target=\"_parent\">External Resource Object</a> allows referencing an external resource like a documentation page or a standard definition.",
+            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#externalResourceObject\" target=\"_parent\">External Resource Object</a> allows referencing an external resource like a documentation page or a standard definition.",
             "type": "object",
             "properties": {
                 "description": {
@@ -615,7 +615,7 @@
             "unevaluatedProperties": false
         },
         "reference": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#referenceObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#referenceObject",
             "title": "Reference Object",
             "description": "",
             "type": "object",
@@ -636,9 +636,9 @@
             "unevaluatedProperties": false
         },
         "standardDefinition": {
-            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#standardDefinitionObject",
+            "$comment": "https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#standardDefinitionObject",
             "title": "Standard Definition Object",
-            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0-DRAFT/#standardDefinitionObject\" target=\"_parent\">Standard Definition Object</a> formally describes an object (ex. Table schema , ecc ...) of interest following a given standard specification.",
+            "description": "The <a href=\"https://dsapi.opendatamesh.org/resources/specifications/1.0.0/#standardDefinitionObject\" target=\"_parent\">Standard Definition Object</a> formally describes an object (ex. Table schema , ecc ...) of interest following a given standard specification.",
             "type": "object",
             "properties": {
                 "id": {
