@@ -1,7 +1,7 @@
 # DatastoreAPI Specification
 
 <p align="center">
-  <img height="160px" src ="./docs/site/images/logos/opendatamesh-small.png" />
+  <img height="160px" src ="./docs/site/opendatamesh-small.png" />
 </p>
 
 <p align="center">
